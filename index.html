@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <div class="main">
+        <div class="music-container">
+            <h2 id="title">a thousand years</h2>
+            <h3 id ="artist">christina perri</h3>
+      
+        <div class="img-container">
+        <img id="im" src="img/a thousand years.jfif" alt="">
+        </div>
+        <audio src="music/a thousand years.mp3"></audio>
+        <div class="pogressBar_container" id="progress_container">
+            <div class="progress_time">
+                <div id="current_time">0:00</div>
+                <div id="duration">4:46</div>
+            </div>
+            
+        </div>
+        <div class="progress_bar" id="progress_bar">
+         <div class="progress" id="progress"></div>
+        </div>
+        <div class="control">
+            <i class="fas fa-backward" id="prev" title="previous"></i>
+            <i class="fas fa-play play_button" id="play" ></i>
+            <i class="fas fa-forward" id="Next" title="Next"></i>
+        </div>
+    </div>
+</div>
+<script src="index.js" >
+
+</script>
+</body>
+</html>
